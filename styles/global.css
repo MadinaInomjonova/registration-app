@@ -1,0 +1,37 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.icons {
+    margin-top: 120px;
+}
+.unlock {
+    color: #198754;
+}
+.unlock:hover {
+    transition: all .3s ease;
+    color: #146c43;
+}
+
+.trash {
+    color: #dc3545;
+}
+.trash:hover {
+    transition: all .3s ease;
+    color: #b02a37;
+}
+
+.login {
+    width: 350px;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.register {
+    width: 350px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
