@@ -1,6 +1,8 @@
-import Link from "next/link";
 import { useHook } from "./useHook";
+import Link from "next/link";
+
 import { Button, Form } from "react-bootstrap";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Register() {

@@ -9,6 +9,7 @@ export const useHook = () => {
   const [ids, setIds] = useState([]);
   const [myId, setMyid] = useState("");
   const [token, setToken] = useState("");
+
   useEffect(() => {
     const token = localStorage.getItem("accessToken");
     setToken(token);
